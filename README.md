@@ -39,4 +39,3 @@ results/
 report.md
 requirements.txt
 ```
-

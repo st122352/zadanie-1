@@ -1,0 +1,7 @@
+model,residual_vs,pearson_correlation
+OLS,prediction_mpa,-0.03189987939898925
+OLS,age_days,-0.03480479012950699
+OLS,water_binder_ratio,-0.02718816842666037
+PHYS,prediction_mpa,-0.07940511675792859
+PHYS,age_days,-0.17505343216480931
+PHYS,water_binder_ratio,0.07194699540266628

@@ -1,0 +1,48 @@
+{
+  "source": "UCI Concrete Compressive Strength, dataset id 165",
+  "n_observations": 1030,
+  "n_train_random": 824,
+  "n_test_random": 206,
+  "target_mean_mpa": 35.8178358261136,
+  "target_sd_mpa": 16.705679174867946,
+  "age_cutoff_days": 90,
+  "n_age_le_cutoff": 894,
+  "n_age_gt_cutoff": 136,
+  "n_age_train_subtrain": 715,
+  "n_age_interpolation_holdout": 179,
+  "age_holdout_component_out_of_training_min_max_fraction": {
+    "cement_kg_m3": 0.0,
+    "slag_kg_m3": 0.0,
+    "fly_ash_kg_m3": 0.0,
+    "water_kg_m3": 0.0,
+    "superplasticizer_kg_m3": 0.0,
+    "coarse_aggregate_kg_m3": 0.0,
+    "fine_aggregate_kg_m3": 0.0
+  },
+  "largest_abs_raw_feature_correlation": {
+    "feature_1": "water_kg_m3",
+    "feature_2": "superplasticizer_kg_m3",
+    "correlation": -0.65746443675148
+  },
+  "condition_number_standardized_raw_features_train": 8.76640721883444,
+  "bootstrap_repetitions": 500,
+  "seed": 20261110,
+  "features": [
+    "cement_kg_m3",
+    "slag_kg_m3",
+    "fly_ash_kg_m3",
+    "water_kg_m3",
+    "superplasticizer_kg_m3",
+    "coarse_aggregate_kg_m3",
+    "fine_aggregate_kg_m3",
+    "age_days"
+  ],
+  "models": [
+    "MEAN",
+    "OLS",
+    "PHYS",
+    "RIDGE",
+    "LASSO",
+    "POLY2_RIDGE"
+  ]
+}
