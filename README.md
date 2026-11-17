@@ -39,3 +39,7 @@ results/
 report.md
 requirements.txt
 ```
+
+## Отчёт
+
+Краткий отчёт в PDF: [report.pdf](report.pdf). Исходная версия в Markdown: [report.md](report.md).
